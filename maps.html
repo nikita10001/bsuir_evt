@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Карты Любимых Мест</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: #f4f4f4;
+    }
+
+    h1 {
+      margin: 20px 0;
+    }
+
+    .map {
+      width: 100%;
+      max-width: 600px;
+      height: 400px;
+      border: none;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Мои Любимые Места</h1>
+
+  <h2>OpenStreetMap</h2>
+  <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=37.6073%2C55.7458%2C37.6273%2C55.7658&layer=mapnik&marker=55.7558%2C37.6173" class="map" loading="lazy"></iframe>
+
+  <h2>Google Карты</h2>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1854.6972152110504!2d27.653855435687298!3d63.07690697232109!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4684a14ba9b364a7%3A0xa4e1031036a6130f!2sSiilinj%C3%A4rven%20seurakunta!5e0!3m2!1sru!2sby!4v1726487080125!5m2!1sru!2sby" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+  <h2>Яндекс.Карты</h2>
+  <iframe src="https://yandex.by/maps/-/CDD-JCi-" class="map" loading="lazy"></iframe>
+
+</body>
+
+</html>
